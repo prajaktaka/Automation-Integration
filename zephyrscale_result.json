@@ -1,0 +1,13 @@
+{
+  "version" : 1,
+  "executions" : [ {
+    "source" : "com.script.AutomationIntegrationTest.Test1",
+    "result" : "Passed"
+  }, {
+    "source" : "com.script.AutomationIntegrationTest.Test2",
+    "result" : "Failed"
+  }, {
+    "source" : "com.script.AutomationIntegrationTest.Test3",
+    "result" : "Failed"
+  } ]
+}

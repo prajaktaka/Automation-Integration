@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Search 
+public class SearchTest 
 {
 		WebDriver driver;
 		
@@ -18,7 +18,7 @@ public class Search
 		@FindBy(id="product_enteredQuantity_4")
 		WebElement e2;
 			
-		public Search (WebDriver driver)
+		public SearchTest (WebDriver driver)
 		{
 			this.driver=driver;
 			

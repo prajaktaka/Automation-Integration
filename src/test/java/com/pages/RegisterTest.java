@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class Register 
+public class RegisterTest 
 {
 	WebDriver driver;
 	/*@FindBy(xpath ="//*[@id=\"demo-page\"]/body/div[7]/header/nav/ul/li[3]/span")
@@ -22,7 +22,7 @@ public class Register
 	@FindBy(id ="register-button")
 	WebElement e3;
 		
-	public Register(WebDriver driver)
+	public RegisterTest(WebDriver driver)
 	{
 		this.driver=driver;
 		
